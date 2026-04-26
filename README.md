@@ -72,7 +72,8 @@ sudo docker run -d -p 80:80 --name dvwa vulnerables/web-dvwa
 ```
 
 ## Project Structure
-'''
+
+```
 vulnscanx/
 ├── scanner/
 │   ├── crawler.py           # Crawls pages, extracts forms and links
@@ -83,8 +84,9 @@ vulnscanx/
 │       ├── open_redirect.py # URL parameter redirect testing
 │       └── headers.py       # Security header presence check
 ├── main.py                  # CLI entry point
-└── requirements.txt
-'''
+└── requirements.txt         # Python dependencies
+```
+
 ## Results Against DVWA
 
 - 21 pages crawled
