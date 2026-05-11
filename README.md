@@ -34,7 +34,7 @@ Built from scratch as a portfolio project. Tested against DVWA running locally i
 ## Setup
 
 ```bash
-git clone https://github.com/YOURUSERNAME/vulnscanx
+git clone https://github.com/GFSec-Cyber/vulnscanx
 cd vulnscanx
 python3 -m venv venv
 source venv/bin/activate
